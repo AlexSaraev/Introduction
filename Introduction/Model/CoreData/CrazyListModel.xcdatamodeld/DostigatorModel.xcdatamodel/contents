@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18C54" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Dream" representedClassName=".Dream" syncable="YES">
+        <attribute name="achievedAt" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="createdAt" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="id" attributeType="String" defaultValueString="N/A" syncable="YES"/>
+        <attribute name="note" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="picture" optional="YES" attributeType="Transformable" customClassName=".UIImage" syncable="YES"/>
+        <attribute name="target" attributeType="String" defaultValueString="N/A" syncable="YES"/>
+        <relationship name="goal" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Goal" inverseName="dream" inverseEntity="Goal" syncable="YES"/>
+        <relationship name="list" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="List" inverseName="dreams" inverseEntity="List" syncable="YES"/>
+    </entity>
+    <entity name="Goal" representedClassName=".Goal" syncable="YES">
+        <attribute name="createdAt" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="deadline" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="goalNotification" optional="YES" attributeType="Transformable" customClassName="GoalNotification" syncable="YES"/>
+        <attribute name="id" attributeType="String" syncable="YES"/>
+        <relationship name="dream" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Dream" inverseName="goal" inverseEntity="Dream" syncable="YES"/>
+    </entity>
+    <entity name="List" representedClassName=".List" syncable="YES">
+        <attribute name="id" attributeType="String" syncable="YES"/>
+        <attribute name="title" attributeType="String" syncable="YES"/>
+        <relationship name="dreams" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Dream" inverseName="list" inverseEntity="Dream" syncable="YES"/>
+        <relationship name="myCollection" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MyCollection" inverseName="lists" inverseEntity="MyCollection" syncable="YES"/>
+    </entity>
+    <entity name="MyCollection" representedClassName=".MyCollection" syncable="YES">
+        <relationship name="lists" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="List" inverseName="myCollection" inverseEntity="List" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Dream" positionX="-229.47265625" positionY="49.03515625" width="128" height="163"/>
+        <element name="Goal" positionX="60.17578125" positionY="124.42578125" width="128" height="120"/>
+        <element name="List" positionX="-517.90234375" positionY="124.0078125" width="128" height="103"/>
+        <element name="MyCollection" positionX="-876.25" positionY="148.24609375" width="128" height="60"/>
+    </elements>
+</model>

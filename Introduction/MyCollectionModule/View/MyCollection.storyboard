@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Vy7-cq-Efp">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="7Wi-aX-zH9">
+            <objects>
+                <viewController id="Vy7-cq-Efp" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CDw-YS-OJE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DefaultImage" translatesAutoresizingMaskIntoConstraints="NO" id="Jt4-BJ-Ojm">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iui-O8-Wvc">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" red="0.56852740049999995" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The end of the introductory fragment." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AI0-Xr-H33">
+                                <rect key="frame" x="15" y="427.5" width="384" height="51"/>
+                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You can find the full version of the app &quot;Crazy List&quot; on AppStore" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j0H-Xf-16k">
+                                <rect key="frame" x="26" y="500" width="373" height="35"/>
+                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.56852740049999995" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="AI0-Xr-H33" firstAttribute="centerY" secondItem="Vde-Bz-4Gk" secondAttribute="centerY" id="5dC-2I-wGV"/>
+                            <constraint firstItem="Iui-O8-Wvc" firstAttribute="top" secondItem="CDw-YS-OJE" secondAttribute="top" id="9df-Sh-sLC"/>
+                            <constraint firstItem="AI0-Xr-H33" firstAttribute="leading" secondItem="Vde-Bz-4Gk" secondAttribute="leading" constant="15" id="9rQ-1c-nCU"/>
+                            <constraint firstItem="j0H-Xf-16k" firstAttribute="top" secondItem="AI0-Xr-H33" secondAttribute="bottom" constant="21.5" id="BY7-2t-XJ9"/>
+                            <constraint firstAttribute="bottom" secondItem="Iui-O8-Wvc" secondAttribute="bottom" id="GgI-u3-H4v"/>
+                            <constraint firstItem="Vde-Bz-4Gk" firstAttribute="trailing" secondItem="Jt4-BJ-Ojm" secondAttribute="trailing" id="K4S-1V-wJI"/>
+                            <constraint firstItem="Iui-O8-Wvc" firstAttribute="leading" secondItem="Vde-Bz-4Gk" secondAttribute="leading" id="T2a-3I-n0T"/>
+                            <constraint firstItem="Vde-Bz-4Gk" firstAttribute="trailing" secondItem="AI0-Xr-H33" secondAttribute="trailing" constant="15" id="TLW-Yr-lD8"/>
+                            <constraint firstAttribute="bottom" secondItem="Jt4-BJ-Ojm" secondAttribute="bottom" id="bbZ-Bq-BBj"/>
+                            <constraint firstItem="Jt4-BJ-Ojm" firstAttribute="top" secondItem="CDw-YS-OJE" secondAttribute="top" id="fI3-wv-1LG"/>
+                            <constraint firstItem="Vde-Bz-4Gk" firstAttribute="trailing" secondItem="j0H-Xf-16k" secondAttribute="trailing" constant="15" id="fiZ-l7-Zkt"/>
+                            <constraint firstItem="j0H-Xf-16k" firstAttribute="leading" secondItem="Vde-Bz-4Gk" secondAttribute="leading" constant="26" id="jUC-bO-ZVK"/>
+                            <constraint firstItem="Vde-Bz-4Gk" firstAttribute="trailing" secondItem="Iui-O8-Wvc" secondAttribute="trailing" id="kmX-fz-T1c"/>
+                            <constraint firstItem="Jt4-BJ-Ojm" firstAttribute="leading" secondItem="Vde-Bz-4Gk" secondAttribute="leading" id="nQ2-SP-0hT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Vde-Bz-4Gk"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b1d-cY-2Zk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="160.86956521739131" y="116.51785714285714"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="DefaultImage" width="828" height="736"/>
+    </resources>
+</document>

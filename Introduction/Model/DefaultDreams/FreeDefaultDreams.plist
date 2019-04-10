@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>totalItems</key>
+	<integer>25</integer>
+	<key>defaultLists</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<string>CHR</string>
+			<key>titleEN</key>
+			<string>Charity</string>
+			<key>titleRU</key>
+			<string>Благотворительность </string>
+			<key>defaultDreams</key>
+			<array>
+				<dict>
+					<key>id</key>
+					<string>chr12</string>
+					<key>targetEN</key>
+					<string>Organize an open-air cinema and invite everyone around for free viewing</string>
+					<key>targetRU</key>
+					<string>Организовать кинотеатр под открытым небом и пригласить всех вокруг на бесплатный просмотр</string>
+					<key>literalPictureName</key>
+					<string>chr12.jpg</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<string>chr11</string>
+					<key>targetEN</key>
+					<string>Give a salary to charity</string>
+					<key>targetRU</key>
+					<string>Раздать зарплату на благотворительность</string>
+					<key>literalPictureName</key>
+					<string>chr11.jpg</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<string>chr10</string>
+					<key>targetEN</key>
+					<string>Perform a kind deed without expecting anything in return</string>
+					<key>targetRU</key>
+					<string>Совершить доброе дело, не ожидая ничего взамен</string>
+					<key>literalPictureName</key>
+					<string>chr10.jpg</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<string>chr09</string>
+					<key>targetEN</key>
+					<string>Make a difference in someone’s life</string>
+					<key>targetRU</key>
+					<string>Изменить жизнь человека к лучшему</string>
+					<key>literalPictureName</key>
+					<string>chr09.jpg</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<string>chr08</string>
+					<key>targetEN</key>
+					<string>Do volunteer work</string>
+					<key>targetRU</key>
+					<string>Поработать в качестве волонтера</string>
+					<key>literalPictureName</key>
+					<string>chr08.jpg</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<string>chr07</string>
+					<key>targetEN</key>
+					<string>Tell at least 10 people about your bucket list and encourage them to join you</string>
+					<key>targetRU</key>
+					<string>Рассказать 10 людя о своих целях и предложить им присоединиться</string>
+					<key>literalPictureName</key>
+					<string>chr07.jpg</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<string>chr06</string>
+					<key>targetEN</key>
+					<string>Start a movement for a cause you believe in</string>
+					<key>targetRU</key>
+					<string>Начать движение за дело, в которое вы верите</string>
+					<key>literalPictureName</key>
+					<string>chr06.jpg</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<string>chr05</string>
+					<key>targetEN</key>
+					<string>Bury the hatchet with people whom you had conflicts with in the past</string>
+					<key>targetRU</key>
+					<string>Помириться с теми, с кем у вас были конфликты в прошлом</string>
+					<key>literalPictureName</key>
+					<string>chr05.jpg</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<string>chr04</string>
+					<key>targetEN</key>
+					<string>Help someone in need</string>
+					<key>targetRU</key>
+					<string>Помочь нуждающимся</string>
+					<key>literalPictureName</key>
+					<string>chr04.jpg</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<string>chr03</string>
+					<key>targetEN</key>
+					<string>Help others live their best lives</string>
+					<key>targetRU</key>
+					<string>Помочь людям начать жить лучшей жизнью</string>
+					<key>literalPictureName</key>
+					<string>chr03.jpg</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<string>chr02</string>
+					<key>targetEN</key>
+					<string>Spearhead a humanitarian cause or organization</string>
+					<key>targetRU</key>
+					<string>Возглавить гуманитарную организацию</string>
+					<key>literalPictureName</key>
+					<string>chr02.jpg</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<string>chr01</string>
+					<key>targetEN</key>
+					<string>Improve the world</string>
+					<key>targetRU</key>
+					<string>Сделать мир лучше</string>
+					<key>literalPictureName</key>
+					<string>chr01.jpg</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>HS</string>
+			<key>titleEN</key>
+			<string>Health and sports</string>
+			<key>titleRU</key>
+			<string>Здоровье и спорт</string>
+			<key>defaultDreams</key>
+			<array>
+				<dict>
+					<key>id</key>
+					<string>hs13</string>
+					<key>targetEN</key>
+					<string>Learn horseback riding</string>
+					<key>targetRU</key>
+					<string>Научиться верховой езде</string>
+					<key>literalPictureName</key>
+					<string>hs13.jpg</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<string>hs12</string>
+					<key>targetEN</key>
+					<string>Do fitness / bodybuilding</string>
+					<key>targetRU</key>
+					<string>Заняться бодибилдингом / фитнесом</string>
+					<key>literalPictureName</key>
+					<string>hs12.jpg</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<string>hs11</string>
+					<key>targetEN</key>
+					<string>Take a contrast shower</string>
+					<key>targetRU</key>
+					<string>Принять контрастный душ</string>
+					<key>literalPictureName</key>
+					<string>hs11.jpg</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<string>hs10</string>
+					<key>targetEN</key>
+					<string>Achieve your ideal weight</string>
+					<key>targetRU</key>
+					<string>Достигнуть совего идеального веса</string>
+					<key>literalPictureName</key>
+					<string>hs10.jpg</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<string>hs09</string>
+					<key>targetEN</key>
+					<string>Switch to a healthy diet</string>
+					<key>targetRU</key>
+					<string>Перейти на здоровое питание</string>
+					<key>literalPictureName</key>
+					<string>hs09.jpg</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<string>hs08</string>
+					<key>targetEN</key>
+					<string>Learn scuba diving</string>
+					<key>targetRU</key>
+					<string>Научиться дайвингу</string>
+					<key>literalPictureName</key>
+					<string>hs08.jpg</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<string>hs07</string>
+					<key>targetEN</key>
+					<string>Learn a martial art</string>
+					<key>targetRU</key>
+					<string>Изучить боевые искусства</string>
+					<key>literalPictureName</key>
+					<string>hs07.jpg</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<string>hs06</string>
+					<key>targetEN</key>
+					<string>Climb a mountain</string>
+					<key>targetRU</key>
+					<string>Взобраться на гору</string>
+					<key>literalPictureName</key>
+					<string>hs06.jpg</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<string>hs05</string>
+					<key>targetEN</key>
+					<string>Do an extreme sport</string>
+					<key>targetRU</key>
+					<string>Заняться экстремальным видом спорта</string>
+					<key>literalPictureName</key>
+					<string>hs05.jpg</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<string>hs04</string>
+					<key>targetEN</key>
+					<string>Learn how to ski</string>
+					<key>targetRU</key>
+					<string>Научиться кататься на лыжах</string>
+					<key>literalPictureName</key>
+					<string>hs04.jpg</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<string>hs03</string>
+					<key>targetEN</key>
+					<string>Take up a new sport</string>
+					<key>targetRU</key>
+					<string>Заняться новым видом спорта</string>
+					<key>literalPictureName</key>
+					<string>hs03.jpg</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<string>hs02</string>
+					<key>targetEN</key>
+					<string>Take part in a triathlon</string>
+					<key>targetRU</key>
+					<string>Принять участие в триатлоне</string>
+					<key>literalPictureName</key>
+					<string>hs02.jpg</string>
+				</dict>
+				<dict>
+					<key>id</key>
+					<string>hs01</string>
+					<key>targetEN</key>
+					<string>Run a marathon</string>
+					<key>targetRU</key>
+					<string>Пробежать марафон</string>
+					<key>literalPictureName</key>
+					<string>hs01.jpg</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

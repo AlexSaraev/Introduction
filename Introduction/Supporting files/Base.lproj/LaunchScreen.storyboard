@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SRW-aA-qfU">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="zin-By-yaF">
+            <objects>
+                <viewController id="SRW-aA-qfU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2CL-8H-2xc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DefaultImage" translatesAutoresizingMaskIntoConstraints="NO" id="YP1-Jw-vEJ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NE8-3T-B99">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" red="0.56852740049999995" green="0.0" blue="1" alpha="0.87537457190000001" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="81" translatesAutoresizingMaskIntoConstraints="NO" id="Gnj-bm-Jgl">
+                                <rect key="frame" x="15" y="159.5" width="384" height="224.5"/>
+                                <string key="text">Crazy 
+List</string>
+                                <fontDescription key="fontDescription" name="GillSans-UltraBold" family="Gill Sans" pointSize="90"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.56852740049999995" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="NE8-3T-B99" firstAttribute="bottom" secondItem="2CL-8H-2xc" secondAttribute="bottom" id="0Pc-n4-114"/>
+                            <constraint firstItem="YP1-Jw-vEJ" firstAttribute="leading" secondItem="2CL-8H-2xc" secondAttribute="leading" id="8nJ-ml-ykk"/>
+                            <constraint firstItem="NE8-3T-B99" firstAttribute="trailing" secondItem="2CL-8H-2xc" secondAttribute="trailing" id="HNi-3q-h5K"/>
+                            <constraint firstItem="NE8-3T-B99" firstAttribute="leading" secondItem="2CL-8H-2xc" secondAttribute="leading" id="Oat-kO-EzZ"/>
+                            <constraint firstItem="Gnj-bm-Jgl" firstAttribute="centerY" secondItem="s3i-ni-4or" secondAttribute="centerY" multiplier="0.6" id="Vgt-Lg-U1G"/>
+                            <constraint firstItem="NE8-3T-B99" firstAttribute="top" secondItem="2CL-8H-2xc" secondAttribute="top" id="WUM-PI-agI"/>
+                            <constraint firstItem="s3i-ni-4or" firstAttribute="trailing" secondItem="Gnj-bm-Jgl" secondAttribute="trailing" constant="15" id="dlr-cc-5Ls"/>
+                            <constraint firstAttribute="trailing" secondItem="YP1-Jw-vEJ" secondAttribute="trailing" id="eX4-PD-ZHx"/>
+                            <constraint firstAttribute="bottom" secondItem="YP1-Jw-vEJ" secondAttribute="bottom" id="jjv-kz-lGK"/>
+                            <constraint firstItem="Gnj-bm-Jgl" firstAttribute="leading" secondItem="s3i-ni-4or" secondAttribute="leading" constant="15" id="riq-vh-HxO"/>
+                            <constraint firstItem="YP1-Jw-vEJ" firstAttribute="top" secondItem="2CL-8H-2xc" secondAttribute="top" id="vPd-Uo-cGE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="s3i-ni-4or"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j8g-9C-vv9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="49" y="378"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="DefaultImage" width="828" height="736"/>
+    </resources>
+</document>

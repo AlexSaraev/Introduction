@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="N5H-B2-OWg">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Introduction View Controller-->
+        <scene sceneID="xZF-xf-owI">
+            <objects>
+                <viewController id="N5H-B2-OWg" customClass="IntroductionViewController" customModule="Introduction" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tdo-zQ-5ez">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DefaultImage" translatesAutoresizingMaskIntoConstraints="NO" id="47N-OA-PTn">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f2O-kT-AxV">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" red="0.56852740049999995" green="0.0" blue="1" alpha="0.87537457191780821" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="81" translatesAutoresizingMaskIntoConstraints="NO" id="3qM-U2-vj4">
+                                <rect key="frame" x="15" y="64" width="290" height="224.5"/>
+                                <string key="text">Crazy 
+List</string>
+                                <fontDescription key="fontDescription" name="GillSans-UltraBold" family="Gill Sans" pointSize="90"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="6Nr-xZ-OF7">
+                                <rect key="frame" x="0.0" y="418" width="320" height="135"/>
+                                <subviews>
+                                    <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="fco-Gn-GN4" customClass="LOTAnimationView">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="135"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="135" id="6IX-oW-h41"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.56852740049999995" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="47N-OA-PTn" firstAttribute="leading" secondItem="tdo-zQ-5ez" secondAttribute="leading" id="0Vf-Aa-fuH"/>
+                            <constraint firstItem="vT9-Yt-tZk" firstAttribute="trailing" secondItem="3qM-U2-vj4" secondAttribute="trailing" constant="15" id="Gxv-ES-6bW"/>
+                            <constraint firstItem="vT9-Yt-tZk" firstAttribute="bottom" secondItem="6Nr-xZ-OF7" secondAttribute="bottom" constant="15" id="K7E-a7-OeB"/>
+                            <constraint firstItem="6Nr-xZ-OF7" firstAttribute="leading" secondItem="vT9-Yt-tZk" secondAttribute="leading" id="LbF-JW-BUm"/>
+                            <constraint firstAttribute="bottom" secondItem="47N-OA-PTn" secondAttribute="bottom" id="WFf-Eh-lh2"/>
+                            <constraint firstItem="f2O-kT-AxV" firstAttribute="bottom" secondItem="tdo-zQ-5ez" secondAttribute="bottom" id="X2R-X1-NPo"/>
+                            <constraint firstItem="47N-OA-PTn" firstAttribute="top" secondItem="tdo-zQ-5ez" secondAttribute="top" id="Yfy-Ps-HUo"/>
+                            <constraint firstItem="f2O-kT-AxV" firstAttribute="leading" secondItem="tdo-zQ-5ez" secondAttribute="leading" id="cv9-qC-WWg"/>
+                            <constraint firstAttribute="trailing" secondItem="47N-OA-PTn" secondAttribute="trailing" id="fJB-sS-6Ms"/>
+                            <constraint firstItem="f2O-kT-AxV" firstAttribute="top" secondItem="tdo-zQ-5ez" secondAttribute="top" id="kHP-0a-aSk"/>
+                            <constraint firstItem="vT9-Yt-tZk" firstAttribute="trailing" secondItem="6Nr-xZ-OF7" secondAttribute="trailing" id="njA-XD-wb4"/>
+                            <constraint firstItem="f2O-kT-AxV" firstAttribute="trailing" secondItem="tdo-zQ-5ez" secondAttribute="trailing" id="opO-z6-ZCT"/>
+                            <constraint firstItem="3qM-U2-vj4" firstAttribute="centerY" secondItem="vT9-Yt-tZk" secondAttribute="centerY" multiplier="0.6" id="r8X-FH-Bl0"/>
+                            <constraint firstItem="3qM-U2-vj4" firstAttribute="leading" secondItem="vT9-Yt-tZk" secondAttribute="leading" constant="15" id="vFJ-Y0-cnb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vT9-Yt-tZk"/>
+                    </view>
+                    <connections>
+                        <outlet property="flowViewAnimation" destination="fco-Gn-GN4" id="Ble-Wx-ROr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8uu-fE-MnY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="343.125" y="86.619718309859152"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="DefaultImage" width="828" height="736"/>
+    </resources>
+</document>
